@@ -1,6 +1,6 @@
 Chen Lab website
 
-GitHub Pages address: https://mchenlab.github.io/chenlab/
+GitHub Pages address: https://mchenlab.github.io/
 
 Publishing
 1. Open https://github.com/mchenlab/chenlab/settings/pages
