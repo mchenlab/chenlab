@@ -60,3 +60,17 @@ nav{font-size:.84rem;gap:22px}.nav-contact{padding:7px 16px}
 .lab-photo img{display:block;width:100%;height:auto}
 .lab-photo figcaption{padding-top:12px;font-size:.82rem;color:var(--muted);text-align:center}
 @media(max-width:720px){.lab-photo-section{padding-top:28px;padding-bottom:28px}}
+
+
+/* Useful research links */
+.links-intro{color:#bfd0d5;font-size:.98rem}
+.resource-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:42px 64px;padding-top:42px;padding-bottom:54px}
+.resource-group{min-width:0;border-top:2px solid var(--teal);padding-top:20px}
+.resource-group h2{font-size:1.5rem;letter-spacing:-.025em;line-height:1.3;margin-bottom:18px}
+.resource-list{list-style:none;padding:0;margin:0}
+.resource-list li{border-bottom:1px solid var(--line)}
+.resource-list a{display:flex;justify-content:space-between;align-items:baseline;gap:20px;padding:13px 0;font-size:.95rem;line-height:1.5;overflow-wrap:anywhere;color:var(--ink)}
+.resource-list a span{flex-shrink:0;color:var(--teal)}
+.resource-list a:hover{color:var(--teal);text-decoration:underline;text-underline-offset:4px}
+.resource-list a:focus-visible{outline:2px solid var(--teal);outline-offset:4px}
+@media(max-width:720px){.resource-grid{grid-template-columns:1fr;gap:32px;padding-top:30px;padding-bottom:38px}.resource-group h2{font-size:1.4rem}}
